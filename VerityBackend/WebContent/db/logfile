@@ -1,0 +1,20 @@
+2018-11-01 11:27:35.636 IST [24502] LOG:  listening on IPv6 address "::1", port 5240
+2018-11-01 11:27:35.636 IST [24502] LOG:  listening on IPv4 address "127.0.0.1", port 5240
+2018-11-01 11:27:35.644 IST [24502] LOG:  listening on Unix socket "/users/ug16/shreyas/postgresql/.s.PGSQL.5240"
+2018-11-01 11:27:35.713 IST [24503] LOG:  database system was shut down at 2018-10-30 11:29:09 IST
+2018-11-01 11:27:35.741 IST [24502] LOG:  database system is ready to accept connections
+2018-11-01 11:29:29.746 IST [24521] ERROR:  syntax error at or near "json" at character 67
+2018-11-01 11:29:29.746 IST [24521] STATEMENT:  update update article set filepath = cse.iitb.ac.in/~shreyas/db/1.json where article_id = 1;
+2018-11-01 11:29:41.850 IST [24521] ERROR:  relation "update" does not exist at character 8
+2018-11-01 11:29:41.850 IST [24521] STATEMENT:  update update article set filepath = "cse.iitb.ac.in/~shreyas/db/1.json" where article_id = 1;
+2018-11-01 11:29:53.292 IST [24521] ERROR:  column "cse.iitb.ac.in/~shreyas/db/1.json" does not exist at character 31
+2018-11-01 11:29:53.292 IST [24521] STATEMENT:  update article set filepath = "cse.iitb.ac.in/~shreyas/db/1.json" where article_id = 1;
+2018-11-01 11:30:19.783 IST [24521] ERROR:  column "cse.iitb.ac.in/~shreyas/db/1.json" does not exist at character 29
+2018-11-01 11:30:19.783 IST [24521] STATEMENT:  update article set filepath="cse.iitb.ac.in/~shreyas/db/1.json" where article_id = 1;
+2018-11-01 11:31:53.551 IST [24597] FATAL:  role "localhost" does not exist
+2018-11-01 11:34:22.656 IST [24962] FATAL:  role "localhost" does not exist
+2018-11-01 11:34:25.304 IST [24502] LOG:  received fast shutdown request
+2018-11-01 11:34:25.306 IST [24502] LOG:  aborting any active transactions
+2018-11-01 11:34:25.310 IST [24502] LOG:  worker process: logical replication launcher (PID 24509) exited with exit code 1
+2018-11-01 11:34:25.311 IST [24504] LOG:  shutting down
+2018-11-01 11:34:25.364 IST [24502] LOG:  database system is shut down
